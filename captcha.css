@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+::selection {
+  color: #fff;
+  background: #4db2ec;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #9bcce9;
+}
+
+.wrapper {
+  max-width: 485px;
+  width: 100%;
+  background: #000000;
+  padding: 22px 30px 40px;
+  border-radius: 10px;
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.05);
+}
+
+.wrapper header {
+  color: #ffffff;
+  font-size: 33px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.captcha-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.captcha {
+  font-size: 20px;
+  background: #8c8888;
+  padding: 10px;
+  border-radius: 5px;
+  letter-spacing: 3px;
+}
+
+.reload-btn {
+  background: #4db2ec;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.input-area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+input {
+  width: 70%;
+  padding: 10px;
+  border: 2px solid #f2f2f2;
+  border-radius: 5px;
+}
+
+.check-btn {
+  background: #4db2ec;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.status-text {
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+}
